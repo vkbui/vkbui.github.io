@@ -1,0 +1,23 @@
+.Experience {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.pos-and-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#position {
+    margin: 0;
+}
+
+#date {
+    margin: 0;
+}
+
+
+
+
+
+

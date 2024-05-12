@@ -1,0 +1,24 @@
+.Contact {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#contact_links {
+    display: flex;
+    justify-content: space-evenly; /* Aligns items to the start of the container */
+}
+
+#contact_links a {
+    color: black;
+}
+
+#contact_links a:hover {
+    background-color: black;  /* Example hover background color */
+    color: white;               /* Example hover text color */
+}
+
+.icon_link{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

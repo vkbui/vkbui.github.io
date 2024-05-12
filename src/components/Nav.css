@@ -1,0 +1,28 @@
+#rightlinks {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    gap: 30px;
+}
+
+#leftlinks {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav {
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px dashed black;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    background-color: black;  /* Example hover background color */
+    color: white;               /* Example hover text color */
+}

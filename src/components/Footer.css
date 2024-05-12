@@ -1,0 +1,9 @@
+.Footer {
+    border-top: 2px dashed black;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;    
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    gap: 30px;
+}

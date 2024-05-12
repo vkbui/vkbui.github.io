@@ -1,0 +1,48 @@
+
+.Intro {
+    /* border: 5px solid red; */
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#header {
+    /* border: 5px solid blue; */
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 20px;
+}
+
+#desc {
+    padding: 20px 0 0 0;
+    text-align: start;
+}
+
+#headshot {
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+}
+
+#headshot-button {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    width: fit-content; 
+    height: fit-content;
+    padding: 5px;
+    border: 0;
+    border-right: 2px solid rgb(64, 64, 64);
+    border-bottom: 2px solid rgb(64, 64, 64);
+}
+
+#headshot-button:active {
+    border: 0;
+    border-top: 2px solid rgb(64, 64, 64);
+    border-left: 2px solid rgb(64, 64, 64);
+}
