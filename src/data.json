@@ -1,86 +1,146 @@
 {
+    "movies": [
+        {
+            "date": "09-08-2024",
+            "title": "Alien: Romulus",
+            "release_year": "2024",
+            "poster": "https://a.ltrbxd.com/resized/film-poster/8/5/0/4/5/9/850459-alien-romulus-0-1000-0-1500-crop.jpg?v=acabb7fd83",
+            "liked": true,
+            "rewatched": true
+        },
+        {
+            "date": "09-07-2024",
+            "title": "Coraline",
+            "release_year": "2009",
+            "poster": "https://a.ltrbxd.com/resized/film-poster/4/2/7/7/9/42779-coraline-0-1000-0-1500-crop.jpg?v=b792483e2a",
+            "liked": true,
+            "rewatched": false
+        },
+        {
+            "date": "09-04-2024",
+            "title": "World War Z",
+            "release_year": "2013",
+            "poster": "https://a.ltrbxd.com/resized/film-poster/5/7/2/9/2/57292-world-war-z-0-1000-0-1500-crop.jpg?v=9391f2d1b7",
+            "liked": false,
+            "rewatched": false
+        },
+        {
+            "date": "09-01-2024",
+            "title": "Blink Twice",
+            "release_year": "2024",
+            "poster": "https://a.ltrbxd.com/resized/film-poster/7/5/6/0/4/2/756042-blink-twice-0-1000-0-1500-crop.jpg?v=2f35ddcd4e",
+            "liked": false,
+            "rewatched": false
+        }
+    ],
     "profile": {
-        "aboutme": ["B.S./M.S. Computer Engineering student at University of California, San Diego.",
-        "Interested in Software Engineering, Computer Architecture, and Data Analysis.",
-        "Incoming Software Engineering Intern at ServiceNow."
+        "aboutme": [
+            "B.S./M.S. Computer Engineering student at University of California, San Diego.",
+            "Interested in Software Engineering, Backend Systems, and Cloud Infrastructure.",
+            "I enjoy working out and going to the movies in my free time!"
         ],
-        "languages": "Java, C++, Python, JavaScript, HTML, CSS, C, SystemVerilog, x86 Assembly, Apex, SQL",
-        "frameworks/libraries": "React.js, Node.js, Numpy, Pandas, Matplotlib, Seaborn, JUnit",
+        "languages": "Java, Python, C++, JavaScript, HTML, CSS, C, x86 Assembly, SystemVerilog, SQL",
+        "frameworks/libraries": "React.js, Jenkins, Numpy, Pandas, Matplotlib, Seaborn, JUnit",
         "other": "Git, Visual Studio Code, Salesforce, Agile, MATLAB, LTSpice, Microsoft Office",
         "certifications": "Salesforce Certified Associate - August 2023"
     },
-    
     "education": [
         {
             "institution": "University of California, San Diego",
             "degree": "M.S. Computer Engineering",
             "startdate": "2024",
-            "enddate": "2025"
+            "enddate": "2025",
+            "relevant courses": [
+                "Computer Architecture, Parallel Programming, Recommender Systems and Web Mining, VLSI Digital System Algorithms and Architectures"
+            ]
         },
         {
             "institution": "University of California, San Diego",
             "degree": "B.S. Computer Engineering",
             "startdate": "2021",
             "enddate": "2024",
-            "relevant courses": ["Data Structures and Algorithms, Computer Architecture, Web Development, Operating Systems,",
-             " Artificial Intelligence, Systems Programming, Probability/Stats, Digital Design, Circuits and Systems, Discrete Mathematics,",
-             " Linear Algebra, Project Management"
+            "relevant courses": [
+                "Data Structures and Algorithms, Computer Architecture, Web Development, Operating Systems,",
+                " Artificial Intelligence, Systems Programming, Probability/Stats, Digital Design, Circuits and Systems, Discrete Mathematics,",
+                " Linear Algebra, Project Management"
             ],
             "activities/societies": "IEEE"
         }
     ],
-
     "experience": [
         {
             "company": "ServiceNow",
-            "position": "Incoming Software Engineering Intern",
+            "position": "Software Engineering Intern",
             "startdate": "June 2024",
             "enddate": "Sept 2024",
-            "description": []
+            "description": [
+                "Developer Productivity - Tools Engineering Team",
+                "Developed and optimized an internal Java code analysis tool to search for RegEx patterns in the company's codebase to identify poor coding practices and improve software maintenance and quality.",
+                "Integrated Jenkins with the ServiceNow platform by programming multiple scripts in JavaScript to automate the execution of Jenkins pipelines and ensure accurate data insertion of analyzer results into the appropriate tables.",
+                "Reduced analyzer delivery time by >90% from ~1.5 months to <1 week by streamlining repetitive analysis requests."
+            ]
         },
         {
             "company": "West Monroe",
             "position": "Technical Consulting Intern - Customer Solutions",
             "startdate": "June 2023",
             "enddate": "Aug 2023",
-            "description": ["Collaborated with stakeholders of $2B law firm to understand client business objectives and develop 10+ inbound and outbound third-party system integrations with the Salesforce platform.",
-            "Analyzed 100+ Java classes and queried objects using SOQL to determine data quality and integration effectiveness.",
-            "Executed Salesforce security health check and CLI code scan and compiled resulting 1000+ data points in Excel for streamlined data analysis of platform security risks, duplicate management, and outdated web components."]
+            "description": [
+                "Collaborated with stakeholders of $2B law firm to understand client business objectives and develop 10+ inbound and outbound third-party system integrations with the Salesforce platform.",
+                "Analyzed 100+ Java classes and queried objects using SQL to determine data quality and integration effectiveness.",
+                "Executed Salesforce security health check and code scan and compiled resulting 1000+ data points in Excel for streamlined data analysis of platform security risks, duplicate management, and outdated web components."
+            ]
         },
         {
             "company": "Institute of Electrical And Electronics Engineers @ UCSD",
             "position": "Marketing Chair",
             "startdate": "May 2023",
-            "enddate": "May 2024",
-            "description": ["Managed multiple organization social media accounts to market events/workshops to reach our 1500+ followers."]
+            "enddate": "June 2024",
+            "description": [
+                "Managed multiple organization social media accounts to market events/workshops to reach our 1500+ followers."
+            ]
         },
         {
             "position": "Professional Chair",
             "startdate": "Oct 2021",
             "enddate": "May 2023",
-            "description": ["Organized 10+ professional development events/workshops (in-person/online) to 400+ student members yearly."]
+            "description": [
+                "Organized 10+ professional development events/workshops (in-person/online) to 400+ student members yearly."
+            ]
         }
-
     ],
-
     "projects": [
         {
-            "projecttitle": "Portfolio Website",
+            "projecttitle": "Portfolio Website (this website)",
             "position": "Software Developer",
-            "startdate":"May 2024",
-            "enddate":"Present",
-            "description": ["React App"],
+            "startdate": "May 2024",
+            "enddate": "Present",
+            "description": [
+                "Built a personal portfolio web application using React.js."
+            ],
             "link": "https://vkbui.github.io/",
             "github": "https://github.com/vkbui/vkbui.github.io"
         },
         {
+            "projecttitle": "Cache Simulator",
+            "position": "Software Developer",
+            "startdate": "May 2024",
+            "enddate": "May 2024",
+            "description": [
+                "Implemented a cache simulator in C++ to simulate various RISC microprocessors (MIPS R10000, Alpha A21264).",
+                "Simulated an Instruction cache, a Data Cache and an inclusive/non-inclusive Level 2 cache following an LRU replacement policy.",
+                "Achieved up to 5.07x speedup with a localized stride prefetcher implementation."
+            ]
+        },
+        {
             "projecttitle": "Tarot Cards",
             "position": "Software Developer",
-            "startdate":"Apr 2023",
-            "enddate":"June 2023",
-            "description": ["Built a fortune-telling tarot cards web application in HTML, CSS, and JS in a team of 9 students.",
-            "Led 2 developers within the team to implement the landing page and start menu page with functioning music volume control and dark mode capabilities using localStorage.",
-            "Exercised Agile methodologies, user-centered design, and test-driven development firmly."
+            "startdate": "Apr 2023",
+            "enddate": "June 2023",
+            "description": [
+                "Built a fortune-telling tarot cards web application in HTML, CSS, and JS in a team of 9 students.",
+                "Led 2 developers within the team to implement the landing page and start menu page with functioning music volume control and dark mode capabilities using localStorage.",
+                "Exercised Agile methodologies, user-centered design, and test-driven development firmly."
             ],
             "link": "https://cse110-sp23-group29.github.io/",
             "github": "https://github.com/cse110-sp23-group29/cse110-sp23-group29.github.io"
@@ -88,19 +148,17 @@
         {
             "projecttitle": "Foodie Bot",
             "position": "Software Developer",
-            "startdate":"Aug 2022",
-            "enddate":"Sept 2022",
-            "description": ["Programmed a Discord bot in Python that allows users to search recipes, estimate macronutrients and ingredient substitutes of dishes, and generate other food-related info utilizing the Discord and Spoonacular API/developer portals.",
-            "Implemented the bot in 4 Discord servers of 30+ members, hosting the bot entirely on Repl.it and continuously monitoring with UptimeRobot."
+            "startdate": "Aug 2022",
+            "enddate": "Sept 2022",
+            "description": [
+                "Programmed a Discord bot in Python that allows users to search recipes, estimate macronutrients and ingredient substitutes of dishes, and generate other food-related info utilizing the Discord and Spoonacular API/developer portals.",
+                "Implemented the bot in 4 Discord servers of 30+ members, hosting the bot entirely on Repl.it and continuously monitoring with UptimeRobot."
             ]
         }
     ],
-
-    "contact": 
-        {
-            "email": "vuongkbui@gmail.com",
-            "linkedin": "https://www.linkedin.com/in/vuongbui/",
-            "github": "https://github.com/vkbui"
-        }
-
+    "contact": {
+        "email": "vuongkbui@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/vuongbui/",
+        "github": "https://github.com/vkbui"
+    }
 }

@@ -11,13 +11,17 @@ function About() {
           <p>- {about}</p>
         ))}
       </div>
+      <br></br>
       <div id='skills'>
         <h4>programming languages</h4>
         <p>{data.profile.languages}</p>
+        <br></br>
         <h4>frameworks/libraries</h4>
         <p>{data.profile['frameworks/libraries']}</p>
+        <br></br>
         <h4>other</h4>
         <p>{data.profile['other']}</p>
+        <br></br>
         <h4>certifications</h4>
         <p>{data.profile.certifications}</p>
       </div>
