@@ -16,11 +16,11 @@ function About() {
         <h4>programming languages</h4>
         <p>{data.profile.languages}</p>
         <br></br>
-        <h4>frameworks/libraries</h4>
-        <p>{data.profile['frameworks/libraries']}</p>
+        <h4>tools/frameworks</h4>
+        <p>{data.profile['tools/frameworks']}</p>
         <br></br>
-        <h4>other</h4>
-        <p>{data.profile['other']}</p>
+        <h4>AI/ML tools/frameworks</h4>
+        <p>{data.profile['AI & ML tools/frameworks']}</p>
         <br></br>
         <h4>certifications</h4>
         <p>{data.profile.certifications}</p>

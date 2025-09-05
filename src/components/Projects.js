@@ -21,9 +21,13 @@ function Projects() {
                             <img src={github} alt={project.projecttitle} className="link-icon" />
                         </a>}
                     </div>
-                    <div className='pos-and-date'>
-                        <p id='position'>{project.position}</p>
-                        <p id='date'>{project.startdate} - {project.enddate}</p>
+                    <div className='skills-and-date'>
+                        <p id='skills'>{project.skills}</p>
+                        <p id='date'>
+                          {project.startdate}
+                          {project.startdate && project.enddate && " - "}
+                          {project.enddate}
+                        </p>
                     </div>
                 </div>
                 <div id="proj-desc">

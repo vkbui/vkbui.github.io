@@ -1,47 +1,51 @@
 {
     "movies": [
         {
-            "date": "09-08-2024",
-            "title": "Alien: Romulus",
-            "release_year": "2024",
-            "poster": "https://a.ltrbxd.com/resized/film-poster/8/5/0/4/5/9/850459-alien-romulus-0-1000-0-1500-crop.jpg?v=acabb7fd83",
+            "date": "09-01-2025",
+            "title": "Pulp Fiction",
+            "release_year": "1994",
             "liked": true,
-            "rewatched": true
+            "rewatched": false,
+            "poster": "https://a.ltrbxd.com/resized/film-poster/5/1/4/4/4/51444-pulp-fiction-0-1000-0-1500-crop.jpg?v=dee19a8077",
+            "rating": null
         },
         {
-            "date": "09-07-2024",
-            "title": "Coraline",
-            "release_year": "2009",
-            "poster": "https://a.ltrbxd.com/resized/film-poster/4/2/7/7/9/42779-coraline-0-1000-0-1500-crop.jpg?v=b792483e2a",
+            "date": "08-28-2025",
+            "title": "Caught Stealing",
+            "release_year": "2025",
             "liked": true,
-            "rewatched": false
+            "rewatched": false,
+            "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/2/9/1/9/9/1129199-caught-stealing-0-1000-0-1500-crop.jpg?v=c64e11436b",
+            "rating": null
         },
         {
-            "date": "09-04-2024",
-            "title": "World War Z",
-            "release_year": "2013",
-            "poster": "https://a.ltrbxd.com/resized/film-poster/5/7/2/9/2/57292-world-war-z-0-1000-0-1500-crop.jpg?v=9391f2d1b7",
-            "liked": false,
-            "rewatched": false
+            "date": "08-23-2025",
+            "title": "KPop Demon Hunters",
+            "release_year": "2025",
+            "liked": true,
+            "rewatched": true,
+            "poster": "https://a.ltrbxd.com/resized/film-poster/7/2/0/9/5/3/720953-kpop-demon-hunters-0-1000-0-1500-crop.jpg?v=10b7464274",
+            "rating": null
         },
         {
-            "date": "09-01-2024",
-            "title": "Blink Twice",
-            "release_year": "2024",
-            "poster": "https://a.ltrbxd.com/resized/film-poster/7/5/6/0/4/2/756042-blink-twice-0-1000-0-1500-crop.jpg?v=2f35ddcd4e",
-            "liked": false,
-            "rewatched": false
+            "date": "08-16-2025",
+            "title": "Highest 2 Lowest",
+            "release_year": "2025",
+            "liked": true,
+            "rewatched": false,
+            "poster": "https://a.ltrbxd.com/resized/film-poster/1/1/2/5/0/3/1/1125031-highest-2-lowest-0-1000-0-1500-crop.jpg?v=4bac6efe11",
+            "rating": null
         }
     ],
     "profile": {
         "aboutme": [
-            "B.S./M.S. Computer Engineering student at University of California, San Diego.",
-            "Interested in Software Engineering, Backend Systems, and Cloud Infrastructure.",
+            "M.S. Computer Engineering student at University of California, San Diego.",
+            "Interested in designing AI-native architectures, engineering effective agent frameworks, and developing high-performance distributed infrastructure to support intelligent applications.",
             "I enjoy working out and going to the movies in my free time!"
         ],
-        "languages": "Java, Python, C++, JavaScript, HTML, CSS, C, x86 Assembly, SystemVerilog, SQL",
-        "frameworks/libraries": "React.js, Jenkins, Numpy, Pandas, Matplotlib, Seaborn, JUnit",
-        "other": "Git, Visual Studio Code, Salesforce, Agile, MATLAB, LTSpice, Microsoft Office",
+        "languages": "C/C++, Golang, Python, Java, CUDA, Verilog, SQL, JavaScript",
+        "tools/frameworks": "Linux, Git, Docker, Kubernetes, GDB, Make, Jenkins, AWS, gRPC",
+        "AI & ML tools/frameworks": "Large Language Models (LLMs), Generative AI, AI Agents and Tools, Single/Multi-Agent Systems, Vector Embeddings, Vector Databases (Pinecone, ChromaDB), Retrieval-Augmented Generation (RAG), Prompt Engineering, Model Context Protocol (MCP), LangChain, n8n, Windsurf, Cursor",
         "certifications": "Salesforce Certified Associate - August 2023"
     },
     "education": [
@@ -51,7 +55,7 @@
             "startdate": "2024",
             "enddate": "2025",
             "relevant courses": [
-                "Computer Architecture, Parallel Programming, Recommender Systems and Web Mining, VLSI Digital System Algorithms and Architectures"
+                "Distributed Systems, Computer Networks, Operating Systems, Systems Programming, Computer Architecture, Parallel Programming, GPU Programming, Computer Security, Data Structures and Algorithms, Machine Learning, Artificial Intelligence"
             ]
         },
         {
@@ -59,15 +63,23 @@
             "degree": "B.S. Computer Engineering",
             "startdate": "2021",
             "enddate": "2024",
-            "relevant courses": [
-                "Data Structures and Algorithms, Computer Architecture, Web Development, Operating Systems,",
-                " Artificial Intelligence, Systems Programming, Probability/Stats, Digital Design, Circuits and Systems, Discrete Mathematics,",
-                " Linear Algebra, Project Management"
-            ],
             "activities/societies": "IEEE"
         }
     ],
     "experience": [
+        {
+            "company": "ServiceNow",
+            "position": "Software Engineering Intern",
+            "startdate": "June 2025",
+            "enddate": "Sept 2025",
+            "description": [
+                "Systems Engineering - US Regulated Markets Team",
+                "Designed and implemented a ServiceNow Virtual Agent chatbot powered by Azure OpenAI and Now LLM, to autonomously process artifact transfer requests from commercial to regulated environments under strict compliance constraints.",
+                "Built a modular multi-agent framework, applying agent design foundations (model, tools, instructions) to handle distinct workloads (Docker images, GitLab repositories, Kubernetes clusters), enabling zero-touch transfers, real-time artifact querying, and future extensibility.",
+                "Developed and prompt-engineered specialized AI agents and tools including scripts, record operations, and LLM workflows to execute transfer creation, error handling, and reprocessing logic, aligning with best practices for tool orchestration and guardrails.",
+                "Reduced artifact transfer time by ~100%, cutting manual team effort from ~3 hours to instantaneous user-triggered execution, while providing real-time visibility and control directly through the chatbot."
+            ]
+        },
         {
             "company": "ServiceNow",
             "position": "Software Engineering Intern",
@@ -77,6 +89,7 @@
                 "Developer Productivity - Tools Engineering Team",
                 "Developed and optimized an internal Java code analysis tool to search for RegEx patterns in the company's codebase to identify poor coding practices and improve software maintenance and quality.",
                 "Integrated Jenkins with the ServiceNow platform by programming multiple scripts in JavaScript to automate the execution of Jenkins pipelines and ensure accurate data insertion of analyzer results into the appropriate tables.",
+                "Implemented an audit tracking system to monitor and log the lifecycle of analyzer requests, ensuring comprehensive visibility.",
                 "Reduced analyzer delivery time by >90% from ~1.5 months to <1 week by streamlining repetitive analysis requests."
             ]
         },
@@ -90,42 +103,29 @@
                 "Analyzed 100+ Java classes and queried objects using SQL to determine data quality and integration effectiveness.",
                 "Executed Salesforce security health check and code scan and compiled resulting 1000+ data points in Excel for streamlined data analysis of platform security risks, duplicate management, and outdated web components."
             ]
-        },
-        {
-            "company": "Institute of Electrical And Electronics Engineers @ UCSD",
-            "position": "Marketing Chair",
-            "startdate": "May 2023",
-            "enddate": "June 2024",
-            "description": [
-                "Managed multiple organization social media accounts to market events/workshops to reach our 1500+ followers."
-            ]
-        },
-        {
-            "position": "Professional Chair",
-            "startdate": "Oct 2021",
-            "enddate": "May 2023",
-            "description": [
-                "Organized 10+ professional development events/workshops (in-person/online) to 400+ student members yearly."
-            ]
         }
     ],
     "projects": [
         {
-            "projecttitle": "Portfolio Website (this website)",
-            "position": "Software Developer",
-            "startdate": "May 2024",
-            "enddate": "Present",
+            "projecttitle": "Distributed Video Streaming Platform",
+            "skills": "Golang, gRPC, AWS EC2, SQLite, Consistent Hashing",
             "description": [
-                "Built a personal portfolio web application using React.js."
-            ],
-            "link": "https://vkbui.github.io/",
-            "github": "https://github.com/vkbui/vkbui.github.io"
+                "Developed a high-performance video streaming platform with distributed storage using consistent hashing algorithms, optimizing bandwidth utilization and data movement patterns across multiple nodes.",
+                "Built a fault-tolerant architecture with dynamic node addition/removal capabilities, requiring precise coordination of data migration and system state management across distributed components."
+            ]
+        },
+        {
+            "projecttitle": "Financial Advisory RAG System",
+            "skills": "Python, LangChain, Pinecone, ChromaDB, Llama2, Hugging Face Embeddings",
+            "description": [
+                "Engineered a retrieval-augmented generation (RAG) system with dual vector store support (ChromaDB local, Pinecone cloud) and HuggingFace sentence transformers for semantic embedding of financial literature.",
+                "Built an automated document ingestion pipeline with recursive text chunking, duplicate detection, and metadata preservation for multi-source document processing.",
+                "Implemented an automated LLM evaluation framework achieving accurate responses across financial concepts with configurable similarity search and context-aware prompt engineering."
+            ]
         },
         {
             "projecttitle": "Cache Simulator",
-            "position": "Software Developer",
-            "startdate": "May 2024",
-            "enddate": "May 2024",
+            "skills": "C++, Multi-Level Caching, Prefetching, Memory Hierarchy",
             "description": [
                 "Implemented a cache simulator in C++ to simulate various RISC microprocessors (MIPS R10000, Alpha A21264).",
                 "Simulated an Instruction cache, a Data Cache and an inclusive/non-inclusive Level 2 cache following an LRU replacement policy.",
@@ -133,27 +133,21 @@
             ]
         },
         {
-            "projecttitle": "Tarot Cards",
-            "position": "Software Developer",
-            "startdate": "Apr 2023",
-            "enddate": "June 2023",
+            "projecttitle": "High Performance GPU Matrix Multiplication",
+            "skills": "CUDA, C++, Kernel Programming, Memory Optimization, Pybind11",
             "description": [
-                "Built a fortune-telling tarot cards web application in HTML, CSS, and JS in a team of 9 students.",
-                "Led 2 developers within the team to implement the landing page and start menu page with functioning music volume control and dark mode capabilities using localStorage.",
-                "Exercised Agile methodologies, user-centered design, and test-driven development firmly."
-            ],
-            "link": "https://cse110-sp23-group29.github.io/",
-            "github": "https://github.com/cse110-sp23-group29/cse110-sp23-group29.github.io"
+                "Implemented optimized CUDA matrix multiplication with shared memory tiling and bank conflict avoidance through strategic padding, reducing global memory accesses by 80%.",
+                "Engineered multi-stream processing with 4 concurrent CUDA streams and asynchronous DMA transfers using pinned memory to maximize GPU utilization and memory bandwidth."
+            ]
         },
         {
-            "projecttitle": "Foodie Bot",
-            "position": "Software Developer",
-            "startdate": "Aug 2022",
-            "enddate": "Sept 2022",
+            "projecttitle": "Portfolio Website (this website)",
+            "skills": "React.js, JavaScript, HTML, CSS",
             "description": [
-                "Programmed a Discord bot in Python that allows users to search recipes, estimate macronutrients and ingredient substitutes of dishes, and generate other food-related info utilizing the Discord and Spoonacular API/developer portals.",
-                "Implemented the bot in 4 Discord servers of 30+ members, hosting the bot entirely on Repl.it and continuously monitoring with UptimeRobot."
-            ]
+                "Built a personal portfolio web application using React.js."
+            ],
+            "link": "https://vkbui.github.io/",
+            "github": "https://github.com/vkbui/vkbui.github.io"
         }
     ],
     "contact": {

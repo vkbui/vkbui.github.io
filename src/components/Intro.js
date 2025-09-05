@@ -27,6 +27,7 @@ function Intro() {
               <div id="moviecontent">
                   <p>{movie.title}</p>
                   <p>{movie.date}</p>
+                  {movie.rating && <p>{movie.rating}/10</p>}
                   <div id="movieoptions">
                       {movie.liked && (
                               <img className="movieicon" src={heart} alt="Liked" />
